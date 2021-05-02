@@ -99,6 +99,32 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #F06000; }
 
+/* cusrsor efect typeme */
+.cursor:after {
+   animation: cursor 1s infinite;
+   content: '_';
+   opacity: 0;
+ }
+ 
+ @keyframes cursor {
+     0% {
+         opacity: 0;
+     }
+     40% {
+         opacity: 0;
+     }
+     50% {
+         opacity: 1;
+     }
+     90% {
+         opacity: 1;
+     }
+     100% {
+         opacity: 0;
+     }
+ }
+ 
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
