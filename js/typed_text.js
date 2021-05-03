@@ -6,7 +6,6 @@ function randomiseDelay(min,max)
 function typeWrite(el){
   el.addClass('cursor')
   var text = el.data('string');
-  var delay = parseInt(el.data('delay'));
   var randInt = 0;
   for (var i = 0; i < text.length; i++) {
     randInt += parseInt(randomiseDelay(50,150));
