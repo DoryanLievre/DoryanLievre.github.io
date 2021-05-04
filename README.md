@@ -1,2 +1,2 @@
 # resume-website
-Just a resume-website for me
+Just a resume website for me
