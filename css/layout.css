@@ -336,6 +336,7 @@ ul#nav li.current a {color: rgb(144, 0, 240);}
   	-moz-animation: adobexd 2s ease;
   	-webkit-animation: adobexd 2s ease;
 }
+
 .wordpress {
   	width: 30%;
   	-moz-animation: wordpress 2s ease;
@@ -613,12 +614,7 @@ ul#nav li.current a {color: rgb(144, 0, 240);}
    color: #636363;
    font-size: 17px;
 }
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
+
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
